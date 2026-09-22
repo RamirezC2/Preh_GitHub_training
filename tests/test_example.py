@@ -1,10 +1,6 @@
 """Tests for the dummy training module."""
 
-from pathlib import Path
-import sys
 import unittest
-
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from preh_github_training import get_training_message
 
